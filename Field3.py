@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from collections import namedtuple
-from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
+from mpl_toolkits.mplot3d import Axes3D  
 
 # Define a simple Vec3 type
 Vec3 = namedtuple('Vec3', ['x', 'y', 'z'])
